@@ -1,0 +1,1 @@
+var srcs=["../img/lxwm.banner.png","../img/mochabanner.png","../img/cpbanner.png"];function qianjin(){var n=srcs.shift();srcs.push(n),bg.src=srcs[0]}dsq=setInterval(function(){qianjin()},2e3),banner.onmouseover=function(){clearInterval(dsq)},banner.onmouseout=function(){dsq=setInterval(function(){qianjin()},2e3)};
